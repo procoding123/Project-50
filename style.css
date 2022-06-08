@@ -1,0 +1,100 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: vollkorn;
+  src: url(./assets/Vollkorn-Bold.ttf);
+}
+
+canvas {
+  display: block;
+}
+
+.gameTitle{
+  width: 85%;
+  height: 160px;
+}
+
+.greeting{
+  font-size: 40px;
+  color:yellowgreen;
+  font-family: vollkorn;
+  text-align:left;
+}
+
+.customInput {
+  width:250px;
+  height:30px;
+  border: 3px solid rgb(25, 3, 3);
+  border-radius: 5px;
+  padding: 5px;
+  background-color:yellow;
+  font-size: 25px;
+  outline:none;
+  color:black;
+  font-family: vollkorn;
+  text-align: center;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  background-color: yellow;
+  color: black;
+  opacity: 2; /* Firefox */
+}
+
+.customButton {
+  width:180px;
+  height:50px;
+  background-color:red;
+  border: 3px solid white;
+  color: yellow;
+  font-weight:bold;
+  border-radius: 10px;
+  margin-bottom:100px;
+  text-align: center;
+  text-decoration: solid;
+  display: inline-block;
+  font-size: 25px;
+  font-family: vollkorn;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.gameTitleAfterEffect{
+  width:25%;
+  height:80px;
+}
+
+.resetButton{
+  width:60px;
+  height:60px;
+  background-image:url("./assets/reset.png");
+  background-size:cover;
+  border-radius:30px;
+  outline:none;
+}
+
+.resetText{
+  font-size: 25px;
+  color: white;
+  font-family: vollkorn;
+  text-align: center;
+  text-shadow: -1px 1px 0 #ff1744,
+                1px 1px 0 #ff1744,
+                1px -1px 0 #ff1744,
+                -1px -1px 0 #ff1744;
+}
+
+
+.leadersText{
+  font-size: 20px;
+  color: white;
+  font-family: vollkorn;
+  text-align: center;
+}
